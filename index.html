@@ -30,19 +30,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Introduction</a>
+                    <a class="nav-link" href="#intro">Introduction</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Research</a>
+                    <a class="nav-link" href="#research">Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ideation</a>
+                    <a class="nav-link" href="#ideation">Ideation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Iteration</a>
+                    <a class="nav-link" href="#iteration">Iteration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Prototype</a>
+                    <a class="nav-link" href="#prototype">Prototype</a>
                 </li>
             </ul>
         </div>
@@ -50,116 +50,242 @@
 
     <!-- introduction Jumbotron component-->
     <div class="container">
-        <div class="jumbotron text-center m-4 p-4">
-            <img src="images/DIYsigner.png" class="img-fluid " alt="DIY-signer: create your space">
+        <div class="jumbotron text-center mt-4 p-4">
+            <img src="images/DIYsigner.png" class="img-fluid" alt="DIY-signer: create your space" id="intro">
         </div>
         <div class="row">
-            <div class="col-sm">
-                <h3> While we may no longer be in full lockdown, many still work remotely or generally
+            <div class="col-sm m-4 px-4">
+                <h5> While we may no longer be in full lockdown, many still work remotely or generally
                     spend much more time at home than before. The space you live in has always been important, but when
                     your home becomes your office as well as the place you spend the majority of your time it becomes
-                    paramount. But the ability to personalize and redcorate your home from home is limited.
-                </h3>
+                    paramount. But the ability to personalize and redecorate from home is limited.<br>
+                     In just three weeks we developed a mobile app solution to this problem. 
+                </h5>
             </div>
-            <div class="col-sm">
-                <h4 class="text-muted">My Role</h4>
-                <h5> Visual designer-user research, UX design, prototyping testing</h5>
-                <h4 class="text-muted">Team</h4>
-                <h5>Alena Kessem, Project Manager<br>
+            <div class="col-sm m-4 p-4">
+                <h5 class="text-muted">My Role</h5>
+                <h6> Visual designer-user research, UX design, prototyping testing</h6>
+                <h5 class="text-muted">Team</h5>
+                <h6>Alena Kessem, Project Manager<br>
                     Jason Tran<br>
                     Matthew Lane<br>
-                    Pablo Caballero</h5>
+                    Pablo Caballero</h6>
             </div>
         </div>
-
-        <img src="images/process.png" alt="process">
-
-        <h1>Research</h1>
         <div class="container">
-            <div class="row">
-                <div class="col-lg"> <img src="images/research.png" class="img-fluid " alt="User research"></div>
-                <div class="col-lg">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="lead">The main question we tried to answer was “what steps do users take when
-                                decorating/redecorating a space and how do they feel about the process?” After
-                                conducting 5
-                                interviews we noticed a similar pattern: all Users pointed out common blockers such as
-                                lack
-                                of time
-                                and lack of inspiration. At the same time, it was obvious that working from home
-                                inclines
-                                people to
-                                redecorate for one reason or another. We also uncovered that people rarely use digital
-                                tools, for
-                                example no one mentioned any of the competing interior design apps, however three out of
-                                five people
-                                directly mentioned that they would love to have a better way of visualizing things
-                                within
-                                the space.
-                            </p>
-                        </div>
-                    </div>
+            <img src="images/process.png" class="card-img mb-4" alt="Our process">
+            <h1 id="research">Research</h1>
+            <div class="card my-4">
+                <img src="images/research.png" class="card-img-top " alt="User research">
+                <div class="card-body">
+                    <p class="card-text lead">The main question we tried to answer was: <br>
+                        “What steps do users take when decorating/redecorating a space and how do they feel about the process?” <br>
+                        After conducting 5 interviews we noticed a similar pattern: all users pointed out common
+                        blockers such as lack of time and lack of inspiration. At the same time, it was obvious that
+                        working from home inclines people to redecorate for one reason or another. We also uncovered
+                        that people rarely use digital tools, for example no one mentioned any of the competing interior
+                        design apps, however three out of five people directly mentioned that they would love to have a
+                        better way of visualizing things within the space.</p>
+                </div>
+            </div>
+            <div class="card my-4">
+                <img src="images/persona.png" alt="persona" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead">With user interviews completed, we went on to create the User Persona of Gene Willis, age 32, who works as
+                        a Copy Editor. <br> Gene has an odd-shaped apartment which creates a lot of space constraints so
+                        it is necessary to be very cautious about the size and shape of the furniture. Their work keeps them busy; its hard to find time for decorating even though they are tired of
+                        looking at the same walls every day.<br>
+                        Building up Gene’s personality based on the real users’ feedback helped us better understand who
+                        we are designing for: <br>a busy professional who probably spends more time at home recently and
+                        looking for a quick and efficient way to refresh a space.</p>
+                </div>
+            </div>
+
+            <!-- Problem statement -->
+
+            <div class="card my-4">
+                <img src="images/problem.png" alt="problem definition" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead">
+                        After distilling pains and gains we were able to finally define our user’s problem.<br>
+                        We observed that Gene struggled with interior decorating because of a busy schedule and lack of
+                        inspiration which prevented them from even starting their project.
+                        So we asked the ultimate question: <br>How might we provide
+                        interior design enthusiasts with an efficient way to visualize
+                        design so they can get to a final look faster based on decreased time spent defining a layout
+                        and finding desired items?
+                    </p>
 
                 </div>
             </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="images/research.png" class="card-img" alt="...">
+            <!-- Ideation -->
+            <h1 id="ideation">Ideation</h1>
+            <div class="card my-4">
+                <img src="images/ideation.png" alt="ideation" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead">During our review of competiting apps, we discovered they lacked the
+                        all-in-one functions that we wanted in our app</p>
+
                 </div>
-                <div class="col-md-8">
+            </div>
+
+            <div class="card my-4">
+                <img src="images/features.png" alt="Core features" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead"> With the information we gathered from competing apps, we were able to
+                        ideate and decide the two key features of our app: </p>
+                    <ol class="lead">
+                        <li>Getting design suggestions based on preferences.</li>
+                        <li> The ability to share and collaborate on designs with others.</li>
+                    </ol>
+
+
+                </div>
+            </div>
+
+            <div class="card my-4">
+                <img src="images/storyboard.png" alt="storyboard" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead"> To demonstrate our app flow, we created this story board </p>
+
+                    <ol class="lead">
+                        <li> Gene works from home and is fed up from working in the kitchen. So they want to make an
+                            office
+                            space.</li>
+                        <li>
+                            However Gene realizes that the task is much harder and overwhelming then they initially
+                            expected.</li>
+                        <li> So Gene speaks to a friend about their issues, who tells Gene about DIYsigner</li>
+                        <li>
+                            So Gene downloads the app</li>
+                        <li> With the app, Gene was able to quickly create a layout, as well as purchase items from the
+                            app
+                            directly</li>
+                        <li>With their newly designed office, Gene is in a happier mindset and can work productively
+                        </li>
+                    </ol>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="card my-4">
+                <img src="images/userFlow.png" alt="user flow" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead"> We kept our user flow straightforward, while sticking to our core
+                        features to maintain the ease of use of our app.
+                    </p>
+
+                </div>
+            </div>
+            <!-- iteration -->
+            <h1 id="iteration">Iteration</h1>
+            <div class="card my-4">
+                <img src="images/iteration.png" alt="iteration" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead">We first began the prototyping process with the majority of us splitting
+                        up and sketching out a portion of the user flow. These were then handed off to one person to
+                        create our first low fidelity prototype by stringing them together though InVision.
+                        Since the creation process was so broken up, this led to some issues of consistency and
+                        ambiguity around certain features during our initial user tests which we fixed by designing our
+                        wireframes with the material theme.<br>
+                        For the digital prototype, we focused on onboarding, project creation options, workspace
+                        features and social and collaboration options. Our onboarding process included an animated
+                        splash screen as well as some coaching screens as well as a preferences quiz and an overlay for
+                        the home screen explaining how to create a new project.<br>
+                        There are three very in depth methods for creating a project: using a template based upon the
+                        style and type of room being designed, using a camera to capture the walls of the room being
+                        designed, or by manually entering in the room’s dimensions.<br>
+                        Once in the workspace we are able to toggle between a 2D and 3D view of the room, add
+                        furnishings to the room which additionally links to online listings for the furniture, invite
+                        other users to help you design your workspace through email, and share your design with other
+                        users by publishing it to the shared designs page.<br>
+                        Through our next iteration of user testing we discovered that we had some dead end screens or
+                        screens that couldn’t be accessed again if skipped the first time, such as the personality quiz,
+                        so we added a back button and a few additional screens like the settings page. <br>
+                        We also worked to bring the digital model up to high fidelity by adding pictures and copy
+                        writing over old placeholders.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card my-4">
+                <img src="images/testing1.png" alt="features" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead">During testing we had users complete a series of tasks. We started by
+                        having them navigate through the sign in experience, then we had them go through the process of
+                        creating a new room layout, and lastly we had them share that room.<br>
+                        During our rounds of user testing we quickly discovered a few huge design oversights.<br>
+                        The first was the navigation. Some users found the initial navigation to be a bit confusing as
+                        the home and shared page looked the same as well as the bottom nav bar always being the same
+                        color no matter what page you were on. We fixed this by having it change color depending upon
+                        what page you’re on to more clearly show the user where they were. We also opted to add a label
+                        to the create a room button to reduce confusion with the purpose of the FAB.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card my-4">
+                <img src="images/testing2.png" alt="features" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead"> Secondly, users found our use of the heart icon confusing. <br> Most
+                        users
+                        associated hearts with liking or favoriting things, not as a share button. <br> We fixed this by
+                        changing out the heart for the more standardized share icon.</p>
+                </div>
+            </div>
+            <!-- Prototype -->
+            <h1 id="prototype">Prototype</h1>
+            <div class="jumbotron">
+                <div class="card">
+                    <img src="images/" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" class="card-link">Figma </a>
+                        <a href="#" class="card-link">Another link</a>
                     </div>
+                  </div>
+            </div>
+
+            <div class="card my-4">
+                <img src="images/final.png" alt="process" class="card-img-top ">
+                <div class="card-body">
+                    <p class="card-text lead"> Overall we were happy with how the app came together, especially with the
+                        limited time frame.<br>
+                        If we have the chance to improve upon the work we’ve done we’d like to:
+                    <ul class="lead list-unstyled">
+                        <ul>
+                            <li>Increase the overall fidelity of the app</li>
+                            <li>Attain brand partnerships</li>
+                            <li>Enhance the interactivity, copy writing, and visual experience of the UI</li>
+                        </ul>
+                    </ul>
+                    </p>
+
                 </div>
             </div>
+
+
         </div>
-        <img src="images/persona.png" alt="persona">
-        <img src="images/problem.png" alt="problem definition">
+        <!-- Optional JavaScript -->
+        <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>;
+        <script src="js/index.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+            </script>
 
-        <!-- Problem statement -->
-        <img src="images/problem.png" alt="problem definition">
-        <!-- Iteration -->
-        <img src="images/ideation.png" alt="ideation">
-        <img src="images/features.png" alt="features">
-        <img src="images/storyboard.png" alt="features">
-        <img src="images/userFlow.png" alt="user flow">
-        <img src="images/iteration.png" alt="iteration">
+        <!-- Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+            </script>
 
-        <img src="images/testing1.png" alt="features">
-        <img src="images/testing2.png" alt="features">
-
-        <!-- Prototype -->
-        <h1>Final Prototype</h1>
-        <div class="jumbotron">
-            <img src="images/">
-        </div>
-        <img src="images/final.png" alt="process">
-
-    </div>
-    <!-- Optional JavaScript -->
-    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>;
-    <script src="js/index.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-
-    <!-- Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-
-    <!-- Latest compiled and minified 
+        <!-- Latest compiled and minified 
         Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
